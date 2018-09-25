@@ -6,7 +6,6 @@
     </head>
 <body class="body-style-9">
     <h1>Register New User</h1>
-    <h2>Please complete the form:</h2>
     <form name="RegNew" action="register_save.php" method="post" class="form-style-9">
         <ul>
             <li>
@@ -22,7 +21,7 @@
                 <input name="Q2" type="text" required class="field-style field-full align-none" placeholder="Answer" />
             </li>
             <li>
-                <div class="field-style field-full align-none">Where did you attend primary school?</div>
+                <div class="field-style field-full align-none">which primary school did you attend ?</div>
                 <input name="Q3" type="text" required class="field-style field-full align-none" placeholder="Answer" />
             </li>
             <li>

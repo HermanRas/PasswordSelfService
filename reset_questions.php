@@ -6,7 +6,6 @@
     </head>
 <body class="body-style-9">
     <h1>Reset your password</h1>
-    <h2>Please answer the question:</h2>
     <form class="form-style-9" name="Unlock" action="reset_complete.php" method="post">
         <ul>
             <li>
@@ -48,7 +47,7 @@
 		<?php 
 		$Q1 = "   What was the make and model of your first car?";
 		$Q2 = "   What was the name of the company where you had your first job?";		
-		$Q3 = "   Where did you attend primary school?";		
+		$Q3 = "   which primary school did you attend?";		
 		$Q4 = "   What are the last four digits of your friends telephone number ?";		
 		
 
