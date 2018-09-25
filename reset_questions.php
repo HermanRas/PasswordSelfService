@@ -47,7 +47,7 @@
 		<?php 
 		$Q1 = "   What was the make and model of your first car?";
 		$Q2 = "   What was the name of the company where you had your first job?";		
-		$Q3 = "   which primary school did you attend?";		
+		$Q3 = "   Which primary school did you attend?";		
 		$Q4 = "   What are the last four digits of your friends telephone number ?";		
 		
 

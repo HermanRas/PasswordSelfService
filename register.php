@@ -21,7 +21,7 @@
                 <input name="Q2" type="text" required class="field-style field-full align-none" placeholder="Answer" />
             </li>
             <li>
-                <div class="field-style field-full align-none">which primary school did you attend ?</div>
+                <div class="field-style field-full align-none">Which primary school did you attend ?</div>
                 <input name="Q3" type="text" required class="field-style field-full align-none" placeholder="Answer" />
             </li>
             <li>

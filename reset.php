@@ -7,7 +7,6 @@
 
 <body class="body-style-9">
     <h1>Reset Your Password</h1>
-    <h2>Please complete the form:</h2>
     <form name="Reset" action="reset_questions.php" method="post" class="form-style-9">
         <ul>
             <li>

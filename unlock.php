@@ -6,7 +6,6 @@
     </head>
 <body class="body-style-9">
     <h1>Unlock Your Account</h1>
-    <h2>Please complete the form:</h2>
     <form name="Unlock" action="unlock_questions.php" method="post" class="form-style-9">
         <ul>
             <li>
