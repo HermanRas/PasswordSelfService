@@ -20,7 +20,7 @@
                     //check Query Sting for Value
                     if ($_POST['CN']==""){
                             //no value exit
-                            echo "No Company Number Enterd, please restart registration";
+                            echo "No Company Number Entered, please restart registration";
                     }else{
                             $UN = md5(strtoupper($_SERVER['LOGON_USER']));
                             $CN = md5($_POST['CN']);		
@@ -36,9 +36,9 @@
                             }	
                       }
                }else{
-                    echo "ERROR No Data submited, Please restart your registration";
+                    echo "ERROR No Data submitted, Please restart your registration";
             }
-            include("dbclose.php");
+            include("./dbclose.php");
             ?>
             </div>
             </li>
