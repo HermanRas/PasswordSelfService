@@ -6,8 +6,10 @@
 	],
 	"settings": {
 		"cSpell.words": [
+			"dbans",
 			"dbclose",
 			"dbopen"
-		]
+		],
+		"cSpell.language": "en"
 	}
 }

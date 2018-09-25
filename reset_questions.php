@@ -16,7 +16,7 @@
                         //check Query Sting for Value
                         if ($_POST['CN']==""){
                                 //no value exit
-                                $ANS = "No Company Number Enterd";
+                                $ANS = "No Company Number Entered";
                         }else{
                                 $user = md5(strtoupper($_POST['User']));
                                 $CN = md5($_POST['CN']);				
@@ -31,11 +31,11 @@
                                 }
                           }
                    }else{
-                        echo "ERROR No Data submited, please restart the reset process";
+                        echo "ERROR No Data submitted, please restart the reset process";
                 }
                 echo ($ANS); 
                 if ($AN == ""){
-                    echo ('<script>alert("ERROR: \n'.$_POST['User'].' is not registerd !\nPlease register first."); </script>');
+                    echo ('<script>alert("ERROR: \n'.$_POST['User'].' is not registered !\nPlease register first."); </script>');
                     }else{                
                     //echo ("<br>".$AN."--FOR DEV ONLY");
                     }
