@@ -10,7 +10,7 @@
     <form class="form-style-9">
         <ul>
             <li>
-            <div class="field-style field-full align-none"><?php echo($_SERVER['LOGON_USER']); ?>1</div>
+            <div class="field-style field-full align-none"><?php echo($_SERVER['LOGON_USER']); ?></div>
             </li>
             <li>
             <div class="field-style field-full align-none">    
