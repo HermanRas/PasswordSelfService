@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost/Projects/Archive/${fileBasename}",
+            "url": "http://localhost/Archive/PSS/${fileBasename}",
             "webRoot": "${workspaceFolder}"
         }
     ]
