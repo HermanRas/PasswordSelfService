@@ -22,20 +22,12 @@
                 <input name="Q2" type="text" required class="field-style field-full align-none" placeholder="Answer" />
             </li>
             <li>
-                <div class="field-style field-full align-none">The name of your first boyfriend / girlfriend ?</div>
+                <div class="field-style field-full align-none">Where did you attend primary school?</div>
                 <input name="Q3" type="text" required class="field-style field-full align-none" placeholder="Answer" />
             </li>
             <li>
-                <div class="field-style field-full align-none">Where did you attend primary school?</div>
-                <input name="Q4" type="text" required class="field-style field-full align-none" placeholder="Answer" />
-            </li>
-            <li>
                 <div class="field-style field-full align-none">What are the last four digits of your friends telephone number ?</div>
-                <input name="Q5" type="text" required class="field-style field-full align-none" placeholder="Answer" />
-            </li>
-            <li>
-                <div class="field-style field-full align-none">Where were you New Year's 2000?</div>
-                <input name="Q6" type="text" required class="field-style field-full align-none" placeholder="Answer" />
+                <input name="Q4" type="text" required class="field-style field-full align-none" placeholder="Answer" />
             </li>
             <li>
             <input type="submit" value="SUBMIT" class="field-style field-split align-left"/>

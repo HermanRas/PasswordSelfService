@@ -24,7 +24,7 @@
                                 $sql = "SELECT * FROM UserData WHERE UserName='$user' and CompanyNumber ='$CN';";
                                 $result=odbc_exec($conn, $sql);	
                                 if ($result > 0) {
-                                        $QNum = rand(1, 6);
+                                        $QNum = rand(1, 4);
                                         $AN=(odbc_result($result, "Q".$QNum));
                                         //echo $AN;
                                         $ANS = "Unlock ".$_POST['User']."'s Account";
@@ -46,19 +46,16 @@
                 <div class="field-style field-full align-none">
 		<?php 
 		$Q1 = "   What was the make and model of your first car?";
-		$Q2 = "   What was the name of the company where you had your first job?";		
-		$Q3 = "   The name of your first boyfriend / girlfriend ?";		
-		$Q4 = "   Where did you attend primary school?";		
-		$Q5 = "   What are the last four digits of your friends telephone number ?";		
-		$Q6 = "   Where were you New Year's 2000?";	
+		$Q2 = "   What was the name of the company where you had your first job?";			
+		$Q3 = "   Where did you attend primary school?";		
+		$Q4 = "   What are the last four digits of your friends telephone number ?";		
+
 		
 
 		if ($QNum == 1) {echo("	".$Q1);}
 		if ($QNum == 2) {echo("	".$Q2);}
 		if ($QNum == 3) {echo("	".$Q3);}
 		if ($QNum == 4) {echo("	".$Q4);}
-		if ($QNum == 5) {echo("	".$Q5);}
-		if ($QNum == 6) {echo("	".$Q6);}
 		?>
                 </div>
             </li>
