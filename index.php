@@ -8,6 +8,7 @@
     <h1>Password Self Service</h1>
     <h2>Main Menu</h2>
     <h2><img src="backgroundcropt.png" alt="background" style="width: 450;"/></h2>
+    <div style="color: #305A72;text-align: center;"><b>Welcome: </b><?php echo($_SERVER['LOGON_USER']); ?></div>
     <form class="form-style-9">
     <ul>
         <li><br>

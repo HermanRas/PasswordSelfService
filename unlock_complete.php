@@ -6,7 +6,7 @@
     </head>
 <body class="body-style-9">
     <h1>Unlock Your Account</h1>
-    <h2>You Unlock was processed:</h2>
+    <h2>Your Unlock was processed:</h2>
     <form class="form-style-9">
         <ul>
             <li>
@@ -21,7 +21,7 @@
                                        if ($_POST['DBANS'] == (md5($_POST['ANS']))){
                                                $adname = substr($_POST['User'],11);
                                                //echo $adname;
-                                               $op = shell_exec('net user /DOMAIN /active:YES '.$adname.' 2>&1');
+                                               $op = shell_exec("powershell .\ADUnlock.ps1 $adname 2>&1");
                                                //echo $op;
                                                $MSG= ($_POST['User'])."'s Account has been unlocked";
                                                }else{

@@ -22,10 +22,9 @@
                                         $adname = substr($_POST['User'],11);
                                         //echo $adname;
                                         $op = shell_exec('net user /DOMAIN /active:YES '.$adname.' Petr@di@monds 2>&1');
-                                        //echo $op;
                                         $MSG= ($_POST['User'])."'s Account password was reset to: <b>Petr@di@monds<b>";
                                         }else{
-                                        echo ($_POST['DBANS']." ". (md5($_POST['ANS'])));
+                                        //echo ($_POST['DBANS']." ". (md5($_POST['ANS'])));
                                         $MSG= "Your answer did not match the anser on the server";
                                         }
                                }
@@ -39,8 +38,5 @@
             </li>
         </ul>
     </form>
-    <?php
-    //echo $op; //FOR DEV ONLY !!
-    ?>
 </body>
 </html>
