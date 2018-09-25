@@ -28,7 +28,7 @@
                             $Q2 = md5($_POST['Q2']);		
                             $Q3 = md5($_POST['Q3']);		
                             $Q4 = md5($_POST['Q4']);				
-                            $sql = "INSERT INTO UserData (UserName, CompanyNumber, Q1,Q2,Q3,Q4,Q5,Q6) VALUES ('$UN', '$CN', '$Q1', '$Q2', '$Q3', '$Q4');";
+                            $sql = "INSERT INTO UserData (UserName, CompanyNumber, Q1,Q2,Q3,Q4) VALUES ('$UN', '$CN', '$Q1', '$Q2', '$Q3', '$Q4');";
                             $result=odbc_exec($conn, $sql);	
 
                             if ($result > 0) {
