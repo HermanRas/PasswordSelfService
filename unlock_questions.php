@@ -1,17 +1,23 @@
 <html>
-    <head>
-        <title>Unlock Question</title>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8">   
-    </head>
+
+<head>
+    <title>Unlock Question</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.min.css">
+    <script src="js\sweetalert2@8.js"></script>
+    <script src="js\promise-polyfill.js"></script>
+    <script src="js\popup.js"></script>
+    <meta charset="UTF-8">
+</head>
+
 <body class="body-style-9">
     <h1>Unlock Account</h1>
     <form class="form-style-9" name="Unlock" action="unlock_complete.php" method="post">
         <ul>
             <li>
                 <div class="field-style field-full align-none">
-                <?php include("dbopen.php");?>
-                <?php
+                    <?php include("dbopen.php");?>
+                    <?php
                 if (isset($_POST['CN'])) {
                         //check Query Sting for Value
                         if ($_POST['CN']==""){
@@ -43,7 +49,7 @@
             </li>
             <li>
                 <div class="field-style field-full align-none">
-		<?php 
+                    <?php 
 		$Q1 = "   What was the make and model of your first car?";
 		$Q2 = "   What was the name of the company where you had your first job?";			
 		$Q3 = "   Which primary school did you attend?";		
@@ -59,13 +65,14 @@
                 </div>
             </li>
             <li>
-		<input name="ANS" type="text" class="field-style field-full align-none" placeholder="Answer" />
+                <input name="ANS" type="text" class="field-style field-full align-none" placeholder="Answer" />
             </li>
             <li>
-		<input type="submit" value="UNLOCK"  class="field-style field-split align-left" />
-		<input type="button" value="CANCEL"  class="field-style field-split align-right" onclick="location.href = 'index.php';" />
-		<input type="hidden" value="<?php echo($AN) ?>" name="DBANS" />
-		<input type="hidden" value="<?php echo($_POST['User']) ?>" name="User" />
+                <input type="submit" value="UNLOCK" class="field-style field-split align-left" onclick="pop()" />
+                <input type="button" value="CANCEL" class="field-style field-split align-right"
+                    onclick="location.href = 'index.php';" />
+                <input type="hidden" value="<?php echo($AN) ?>" name="DBANS" />
+                <input type="hidden" value="<?php echo($_POST['User']) ?>" name="User" />
             </li>
         </ul>
     </form>
