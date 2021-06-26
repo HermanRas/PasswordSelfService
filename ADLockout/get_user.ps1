@@ -1,1 +1,0 @@
-﻿Get-ADUser -LDAPFilter "(displayName=*$args*)" -Properties displayName | select SamAccountname,name | format-list
